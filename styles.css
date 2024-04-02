@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(146, 232, 238);
+    margin: 0;
+    padding: 0;
+    }
+
+    #loginForm, #registerForm, #messageBoard {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    }
+
+    .button-container {
+        display: flex; /* Use flexbox for the button container */
+        justify-content: space-between; /* Space the buttons evenly within the container */
+        margin-top: 10px; /* Add some margin for spacing */
+    }
+
+    .input-container {
+        display: flex; /* Use flexbox for the input container */
+        align-items: center; /* Center items vertically within the container */
+        margin-top: 10px; /* Add some margin for spacing */
+    }
+
+    h2 {
+    color: #333;
+    }
+
+    label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    }
+
+    input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-right: 5px;
+    flex: 1;
+    box-sizing: border-box;
+    }
+
+    button {
+    width: 48%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: rgb(119, 238, 238);
+    }
+
+    #messages {
+    margin-top: 20px;
+    }
+
+    .hidden {
+        display: none;
+    }
+    /* Add more styles as needed */
